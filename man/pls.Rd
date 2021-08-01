@@ -6,9 +6,6 @@
 \usage{
 pls()
 }
-\value{
-
-}
 \description{
 Base function for PLS methods
 }
