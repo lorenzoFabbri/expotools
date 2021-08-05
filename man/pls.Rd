@@ -2,10 +2,13 @@
 % Please edit documentation in R/pls.R
 \name{pls}
 \alias{pls}
-\title{Base function for PLS methods}
+\title{Partial Least Squares (PLS)}
 \usage{
-pls()
+pls(X, Y, num.components)
+}
+\value{
+None
 }
 \description{
-Base function for PLS methods
+This function implements the generic PLS algorithm
 }
