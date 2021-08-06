@@ -2,6 +2,10 @@
 #'
 #' This function implements the generic PLS algorithm
 #'
+#' @param X Matrix of descriptors (n x p)
+#' @param Y Matrix of response variables (n x q)
+#' @param num.components Number of PLS components (variates) to compute
+#'
 #' @return None
 #'
 #' @export

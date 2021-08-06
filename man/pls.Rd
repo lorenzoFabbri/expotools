@@ -6,6 +6,13 @@
 \usage{
 pls(X, Y, num.components)
 }
+\arguments{
+\item{X}{Matrix of descriptors (n x p)}
+
+\item{Y}{Matrix of response variables (n x q)}
+
+\item{num.components}{Number of PLS components (variates) to compute}
+}
 \value{
 None
 }
