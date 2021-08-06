@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Base function for PLS methods — pls • expotools</title>
+<title>Partial Least Squares (PLS) — pls • expotools</title>
 
 
 <!-- jquery -->
@@ -39,8 +39,8 @@
 
 
 
-<meta property="og:title" content="Base function for PLS methods — pls" />
-<meta property="og:description" content="Base function for PLS methods" />
+<meta property="og:title" content="Partial Least Squares (PLS) — pls" />
+<meta property="og:description" content="This function implements the generic PLS algorithm" />
 
 
 
@@ -103,23 +103,37 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Base function for PLS methods</h1>
+    <h1>Partial Least Squares (PLS)</h1>
     
     <div class="hidden name"><code>pls.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Base function for PLS methods</p>
+    <p>This function implements the generic PLS algorithm</p>
     </div>
 
-    <pre class="usage"><span class='fu'>pls</span><span class='op'>(</span><span class='op'>)</span></pre>
+    <pre class="usage"><span class='fu'>pls</span><span class='op'>(</span><span class='va'>X</span>, <span class='va'>Y</span>, <span class='va'>num.components</span><span class='op'>)</span></pre>
 
+    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
+    <table class="ref-arguments">
+    <colgroup><col class="name" /><col class="desc" /></colgroup>
+    <tr>
+      <th>X</th>
+      <td><p>Matrix of descriptors (n x p)</p></td>
+    </tr>
+    <tr>
+      <th>Y</th>
+      <td><p>Matrix of response variables (n x q)</p></td>
+    </tr>
+    <tr>
+      <th>num.components</th>
+      <td><p>Number of PLS components (variates) to compute</p></td>
+    </tr>
+    </table>
 
     <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    
-
-
+    <p>Named list containing weights, scores, loadings, rotations and coefficients</p>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
@@ -132,7 +146,7 @@
 
       <footer>
       <div class="copyright">
-  <p>Developed by The package maintainer.</p>
+  <p>Developed by Lorenzo Fabbri.</p>
 </div>
 
 <div class="pkgdown">

@@ -6,6 +6,8 @@ Author: Lorenzo Fabbri
 Maintainer: Lorenzo Fabbri <lorenzo.fabbri@isglobal.org>
 Description: R package providing useful methods for Exposome and Epidemiology research.
     The package is mostly tailored to High-Dimensional (Molecular) data.
+Authors@R: person("Lorenzo", "Fabbri", , "lorenzo.fabbri@isglobal.org", 
+              role = c("aut", "cre"), comment = c(ORCID = "0000-0003-3031-322X"))
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true

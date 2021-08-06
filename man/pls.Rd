@@ -14,7 +14,7 @@ pls(X, Y, num.components)
 \item{num.components}{Number of PLS components (variates) to compute}
 }
 \value{
-None
+Named list containing weights, scores, loadings, rotations and coefficients
 }
 \description{
 This function implements the generic PLS algorithm
